@@ -3,20 +3,38 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/* nav bar styles */
+.primary-button {
+  background: #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 36px;
+  border: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
 
-.header-area {
+header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png"),
-    url("../images/developer.png");
+  padding: 0 200px;
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right, left;
+  background-size: contain;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 100px;
+  padding: 50px 0;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.text-primary {
+  color: #fd6e0a;
 }
 
 nav ul {
@@ -26,106 +44,28 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  margin-right: 50px;
-}
-
-.nav-title {
-  font-size: 48px;
-  font-weight: 800;
-}
-
-.text-primary {
-  color: #fd6e0a;
-}
-
-.orange-btn,
-.contact-btn {
-  height: 64px;
+  margin-left: 50px;
   font-weight: 700;
   font-size: 20px;
-  padding: 18px 36px;
-  background-color: #fd6e0a;
-  color: #fff;
-  border: 2px solid #fd6e0a;
-  border-radius: 5px;
-  margin-right: 15px;
 }
 
-.contact-btn {
-  background-color: #fff;
-  color: #fd6e0a;
-  border: 2px solid #fd6e0a;
-}
-
-.banner-area {
+.banner{
   display: flex;
-  margin: 0 100px;
-  align-items: center;
 }
 
-.banner-area h3 {
+.banner-subtitle {
   font-weight: 600;
   font-size: 45px;
   color: #474747;
-  margin-bottom: 5px;
 }
-
-.banner-area h1 {
+.banner-title {
   font-weight: 700;
   font-size: 85px;
   color: #181818;
-  margin-bottom: 20px;
 }
-
-.banner-area p {
+.banner-description {
   font-weight: 400;
   font-size: 18px;
+  line-height: 30px;
   color: #757575;
-  margin-bottom: 30px;
-}
-
-/* main section */
-
-main {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-/* about me styles */
-
-.about-me {
-  margin-top: 130px;
-  background: #fff8f3;
-  border-radius: 10px;
-  padding: 130px 150px;
-  text-align: center;
-}
-
-.section-title {
-  margin-bottom: 30px;
-  color: #181818;
-  font-size: 35px;
-  font-weight: 700;
-}
-
-.section-description {
-  margin-bottom: 30px;
-  font-size: 18px;
-  color: #757575;
-}
-
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
-}
-
-.info-title{
-    font-size: 20px;
-    color: #757575;    
-}
-
-.info-description{
-    font-weight: 700;
-    font-size: 20px;
-    color: #474747;
 }

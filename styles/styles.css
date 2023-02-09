@@ -4,7 +4,7 @@
 }
 
 .primary-button {
-  width: 250px;
+  /* width: 250px; */
   background: #fd6e0a;
   border-radius: 5px;
   padding: 18px 36px;
@@ -16,7 +16,7 @@
 }
 
 .contact-button {
-  width: 250px;
+  /* width: 250px; */
   background: #fff;
   border-radius: 5px;
   padding: 16px 34px;
